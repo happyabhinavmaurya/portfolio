@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Abhinav Maurya</title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!--Header-->
+        <header class="header"
+            style="background-image: url(assits/images/AbhinavMaurya.jpg);">
+            <nav>
+                <a href="index.html"><h1 style="background: url(assits/images/AbhinavMaurya.jpg);">Abhinav</h1></a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="home-page"><a href="index.html">Home</a></li>
+                      <!--  <li class="project-page"><a href="projects.html">Projects</a></li>  -->
+                      <!--  <li class="service-page"><a href="services.html">Services</a></li>  -->
+                      <!--  <li class="blog-page"><a href="blogs.html">Blogs</a></li>  -->
+                        <li class="about-page"><a href="about.html">About</a></li>
+                        <li class="contact-page"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h2>Hello, I'm<br>Abhinav Suman!</h2>
+                <p>A Developer, Programmer and Analyst by professon, <br> Passionate
+                    cook and writer, Philosopher by thoughts. <br> You know
+                    science
+                    is love since childhood.</p>
+
+                <ul>
+                    <li><a href="https://github.com/happyabhinavmaurya"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://in.linkedin.com/in/abhinav-maurya-099aa6289"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://t.me/+WEiRKCJ_33M3MmJl"><i class="fa-solid fa-paper-plane"></i></a></li>
+                    <li><a href="https://www.instagram.com/happyabhinavsuman"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+                <a href="about.html" class="hero-btn">Know More</a>
+            </div>
+
+        </header>
+
+        <!--main-->
+        <main>
+
+            <!--Skills-->
+            <section class="skill-stn">
+                <h2>Skills</h2>
+                <p></p>
+
+                <div class="row">
+                    <div class="skill-col">
+                        <h3>Web Development</h3>
+                        <p>Skilled in HTML, CSS, JavaScript, and familiar with
+                            modern frameworks and libraries. Capable of creating
+                            responsive and user-friendly websites, and adept at
+                            optimizing web performance.</p>
+                    </div>
+
+                    <div class="skill-col">
+                        <h3>C and C++</h3>
+                        <p>Proficient in developing efficient and robust code,
+                            with a deep understanding of data structures,
+                            algorithms, and object-oriented programming.
+                            Experienced in memory management and low-level
+                            programming aspects unique to C and C++. Capable of
+                            debugging and optimizing code for performance
+                            improvements.</p>
+                    </div>
+
+                    <div class="skill-col">
+                        <h3>Python</h3>
+                        <p>Skilled in writing clean, efficient, and reliable
+                            Python code for a variety of applications, from web
+                            development to data analysis. Experienced in
+                            leveraging Python’s powerful libraries and
+                            frameworks such as Django, Flask, NumPy, and Pandas.
+                            Capable of automating tasks, handling large
+                            datasets, and building robust and scalable software
+                            solutions.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!--footer-->
+        <footer>
+            <p class="copyright">&copy 2024 <a href="index.html" class="copyright-a">Abhinav
+                Suman</a>. All rights reserved.
+        </p>
+
+        </footer>
+
+        <!--JavaScript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-260px";
+            }
+        </script>
+    </body>
+</html>
